@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   height: 90px;
   display: flex;
   justify-content: center;
-  algin-item: center;
+  align-item: center;
   font-size: 1rem;
   position: sticky;
   top: 0;
@@ -34,11 +34,10 @@ export const Logo = styled(LinkRouter)`
   cursor: pointer;
   font-size: 2rem;
   display: flex;
-  algin-items: center;
+  align-items: center;
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
-  margin-top: 2.2%;
 `;
 
 export const Icon = styled.div`
@@ -55,11 +54,11 @@ export const Icon = styled.div`
 `;
 export const NavMenu = styled.ul`
   display: flex;
-  algin-items: center;
+  align-items: center;
+  justify-content: center;
   list-style: none;
-  text-algin: center;
+  text-align: center;
   margin-right: -22px;
-  margin-top: 3%;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -71,7 +70,7 @@ export const NavItem = styled.li`
 export const Links = styled(LinkItems)`
   color: #f2f2f2;
   display: flex;
-  algin-items: center;
+  align-items: center;
   text-decoration: none;
   height: 100%;
   cursor: pointer;
@@ -84,9 +83,8 @@ export const Links = styled(LinkItems)`
 
 export const NavBTN = styled.nav`
   display: flex;
-  algin-items: center;
+  align-items: center;
   justify-content: center;
-  margin-bottom: 15px;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -104,7 +102,6 @@ export const NavBTNLink = styled(LinkRouter)`
   cursor: pointer;
   transition: 0.3s ease-in-out;
   text-decoration: none;
-  margin-top: 14%;
 
   &:hover {
     transition: all 0.3s ease-in-out;
