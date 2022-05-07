@@ -5,7 +5,6 @@ import { Link as LinkItems } from "react-scroll";
 export const Nav = styled.nav`
   background: #205375;
   height: 90px;
-  ${"" /* margin-top: -80px; */}
   display: flex;
   justify-content: center;
   algin-item: center;
@@ -39,6 +38,7 @@ export const Logo = styled(LinkRouter)`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+  margin-top: 2.2%;
 `;
 
 export const Icon = styled.div`
@@ -59,6 +59,8 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-algin: center;
   margin-right: -22px;
+  margin-top: 3%;
+
   @media screen and (max-width: 768px) {
     display: none;
   }
