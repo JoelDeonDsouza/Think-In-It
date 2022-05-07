@@ -81,3 +81,34 @@ export const Links = styled(LinkItems)`
     border-bottom: 3px solid #0aa1dd;
   }
 `;
+
+export const NavBTN = styled.nav`
+  display: flex;
+  algin-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const NavBTNLink = styled(LinkRouter)`
+  border-radius: 15px;
+  background: #f66b0e;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: #f8cb2e;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  margin-top: 14%;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f8cb2e;
+    color: #f66b0e;
+  }
+`;

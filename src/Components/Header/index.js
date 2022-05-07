@@ -8,6 +8,8 @@ import {
   NavMenu,
   NavItem,
   Links,
+  NavBTN,
+  NavBTNLink,
 } from "./headerComponents";
 
 const Header = () => {
@@ -21,9 +23,24 @@ const Header = () => {
           </Icon>
           <NavMenu>
             <NavItem>
+              <Links to="home">Home</Links>
+            </NavItem>
+            <NavItem>
               <Links to="about">About</Links>
             </NavItem>
+            <NavItem>
+              <Links to="services">3D-States</Links>
+            </NavItem>
+            <NavItem>
+              <Links to="services-1">3D-Printing Services</Links>
+            </NavItem>
+            <NavItem>
+              <Links to="blog">Blog</Links>
+            </NavItem>
           </NavMenu>
+          <NavBTN>
+            <NavBTNLink to="/signin">Join Community</NavBTNLink>
+          </NavBTN>
         </Container>
       </Nav>
     </>
