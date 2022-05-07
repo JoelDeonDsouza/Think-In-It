@@ -75,6 +75,7 @@ export const Links = styled(LinkItems)`
   height: 100%;
   cursor: pointer;
   padding: 0 1rem;
+  font-size: 20px;
 
   &.active {
     border-bottom: 3px solid #0aa1dd;
