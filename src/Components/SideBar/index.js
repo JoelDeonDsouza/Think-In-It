@@ -9,10 +9,10 @@ import {
   SideBarBTNWrappe,
   SideBarBTNLink,
 } from "./sideBarComponents";
-const SideBar = () => {
+const SideBar = ({ isOpen, toggle }) => {
   return (
-    <Container>
-      <Icon>
+    <Container isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <SideBarWrapper>

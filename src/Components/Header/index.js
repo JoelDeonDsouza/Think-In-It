@@ -12,13 +12,13 @@ import {
   NavBTNLink,
 } from "./headerComponents";
 
-const Header = () => {
+const Header = ({ toggle }) => {
   return (
     <>
       <Nav>
         <Container>
           <Logo to="/">Think-In-It</Logo>
-          <Icon>
+          <Icon onClick={toggle}>
             <FaBars />
           </Icon>
           <NavMenu>
