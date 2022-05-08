@@ -42,11 +42,23 @@ export const HeroText = styled.div`
   align-items: center;
 `;
 
+export const TextStyle = styled.div`
+  text-shadow: -1px -1px #9df, 1px 1px #49d, -3px 0 4px #000;
+  padding: 24px 32px 32px 32px;
+  font-weight: bolder;
+  -moz-box-shadow: 2px 2px 6px #888;
+  -webkit-box-shadow: 2px 2px 6px #888;
+  box-shadow: 2px 2px 6px #888;
+  display: inline;
+  line-height: 60px;
+  border-radius: 12px;
+`;
+
 export const Heroh1 = styled.h1`
-  color: #dfdfde;
-  font-size: 75px;
+  color: #f7f7f7;
+  font-size: 65px;
   text-align: center;
-  margin: 0 5px 40px;
+  margin: 0 5px 30px;
 
   @media screen and (max-width: 768px) {
     font-size: 50px;
@@ -62,8 +74,7 @@ export const Heroh2 = styled.h2`
   color: #fff;
   font-size: 30px;
   text-align: center;
-  max-width: 600px;
-  margin: 0 5px 125px;
+  margin: 0 5px 20px;
 
   @media screen and (max-width: 768px) {
     font-size: 30px;
