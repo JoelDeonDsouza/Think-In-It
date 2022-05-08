@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import { useState } from "react";
 import Video from "../../../src/Video/video.mp4";
 import {
   Container,
@@ -8,18 +8,18 @@ import {
   TextStyle,
   Heroh1,
   Heroh2,
-  HeroBtn,
-  BTN,
-  ArrowForward,
-  ArrowRight,
+  //   HeroBtn,
+  //   BTN,
+  //   ArrowForward,
+  //   ArrowRight,
 } from "./heroComponents";
 
 const HeroSection = () => {
-  const [hover, setHover] = useState(false);
+  //   const [hover, setHover] = useState(false);
 
-  const onHover = () => {
-    setHover(!hover);
-  };
+  //   const onHover = () => {
+  //     setHover(!hover);
+  //   };
 
   return (
     <Container>
@@ -31,11 +31,11 @@ const HeroSection = () => {
           <Heroh1>Giving power to your design!</Heroh1>
           <Heroh2>Bring your Design to life with us...</Heroh2>
         </TextStyle>
-        <HeroBtn>
+        {/* <HeroBtn>
           <BTN to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
             Start now {hover ? <ArrowForward /> : <ArrowRight />}
           </BTN>
-        </HeroBtn>
+        </HeroBtn> */}
       </HeroText>
     </Container>
   );
