@@ -8,7 +8,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: 725px;
   position: relative;
   z-index: 1;
 `;
@@ -32,9 +32,9 @@ export const VideoBg = styled.video`
   background: #232a34;
 `;
 
-export const HeroText = styled.video`
-  z-index: 3;
-  max-width: 1200px;
+export const HeroText = styled.div`
+  z-index: 1;
+  max-width: 1100px;
   position: absolute;
   padding: 8px 24px;
   display: flex;
@@ -43,70 +43,72 @@ export const HeroText = styled.video`
 `;
 
 export const Heroh1 = styled.h1`
-  color: #f66b0e;
-  font-size: 45px;
+  color: #dfdfde;
+  font-size: 75px;
   text-align: center;
+  margin: 0 5px 40px;
 
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 30px;
+    font-size: 40px;
   }
 `;
 
 export const Heroh2 = styled.h2`
   margin-top: 24px;
-  color: #f8cb2e;
-  font-size: 25px;
+  color: #fff;
+  font-size: 30px;
   text-align: center;
   max-width: 600px;
+  margin: 0 5px 125px;
 
   @media screen and (max-width: 768px) {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 15px;
+    font-size: 20px;
   }
 `;
 
-// export const HeroBtn = styled.div`
-//   margin-top: 32px;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-// `;
+export const HeroBtn = styled.div`
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
-// export const BTN = styled(Link)`
-//   border-radius:15px;
-//   background:${({ primary }) => (primary ? "#205375" : "#112B3C")};
-//   white-space:nowrap;
-//   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-//   color: ${({ dark }) => (dark ? "#187498" : "#36AE7C")};
-//   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
-//   outline:none;
-//   border:none;
-//   cursor:pointer;
-//   display:flex;
-//   justify-content:center;
-//   align-items:center;
-//   transition: all 0.3s ease-in-out;
+export const BTN = styled(Link)`
+  border-radius:15px;
+  background:${({ primary }) => (primary ? "#205375" : "#112B3C")};
+  white-space:nowrap;
+  padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
+  color: ${({ dark }) => (dark ? "#187498" : "#36AE7C")};
+  font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
+  outline:none;
+  border:none;
+  cursor:pointer;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transition: all 0.3s ease-in-out;
 
-//  &:hover{
-//     transition: all 0.3s ease-in-out;
-//     background:{({primary}) => (primary ? "#112B3C" :  "#205375" )};
-//  }
+ &:hover{
+    transition: all 0.3s ease-in-out;
+    background:{({primary}) => (primary ? "#112B3C" :  "#205375" )};
+ }
 
-// `;
+`;
 
-// export const ArrowForward = styled(MdArrowForward)`
-//   margin-left: 8px;
-//   font-size: 20px;
-// `;
+export const ArrowForward = styled(MdArrowForward)`
+  margin-left: 8px;
+  font-size: 20px;
+`;
 
-// export const ArrowRight = styled(MdArrowRight)`
-//   margin-left: 8px;
-//   font-size: 20px;
-// `;
+export const ArrowRight = styled(MdArrowRight)`
+  margin-left: 8px;
+  font-size: 20px;
+`;

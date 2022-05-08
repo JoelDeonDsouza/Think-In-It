@@ -14,11 +14,11 @@ import {
 } from "./heroComponents";
 
 const HeroSection = () => {
-  //   const [hover, setHover] = useState(false);
+  const [hover, setHover] = useState(false);
 
-  //   const onHover = () => {
-  //     setHover(!hover);
-  //   };
+  const onHover = () => {
+    setHover(!hover);
+  };
 
   return (
     <Container>
