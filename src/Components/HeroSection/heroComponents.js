@@ -93,19 +93,19 @@ export const HeroBtn = styled.div`
 `;
 
 export const BTN = styled(Link)`
-  border-radius:15px;
-  background:${({ primary }) => (primary ? "#205375" : "#112B3C")};
-  white-space:nowrap;
-  padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-  color: ${({ dark }) => (dark ? "#187498" : "#36AE7C")};
-  font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
-  outline:none;
-  border:none;
-  cursor:pointer;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  transition: all 0.3s ease-in-out;
+ width: 240px;
+  height: 50px;
+  font-size: 29px;
+  background: linear-gradient(45deg, transparent 5%, #ff3366 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 50px;
+  box-shadow: 6px 0.5px 0.1px #79dae8;
+  outline: transparent;
+  position: relative;
+  cursor: pointer;
+
 
  &:hover{
     transition: all 0.3s ease-in-out;
@@ -116,10 +116,10 @@ export const BTN = styled(Link)`
 
 export const ArrowForward = styled(MdArrowForward)`
   margin-left: 8px;
-  font-size: 20px;
+  font-size: 25px;
 `;
 
 export const ArrowRight = styled(MdArrowRight)`
-  margin-left: 8px;
-  font-size: 20px;
+  font-size: 30px;
+  margin-bottom: -7px;
 `;
