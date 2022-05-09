@@ -13,7 +13,9 @@ function Main() {
   return (
     <>
       <SideBar isOpen={isOpen} toggle={toggle} />
+      {/* //NavBar// */}
       <Header toggle={toggle} />
+      {/* //HeroSection// */}
       <HeroSection />
     </>
   );

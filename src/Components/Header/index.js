@@ -17,7 +17,7 @@ const Header = ({ toggle }) => {
     <>
       <Nav>
         <Container>
-          <Logo to="/">Think-In-It</Logo>
+          <Logo to="/">Think-3DDD</Logo>
           <Icon onClick={toggle}>
             <FaBars />
           </Icon>
