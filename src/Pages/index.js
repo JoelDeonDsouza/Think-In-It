@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SideBar from "../Components/SideBar";
 import Header from "../Components/Header";
 import HeroSection from "../Components/HeroSection";
+import InfoTab from "../Components/Info";
 
 function Main() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,8 @@ function Main() {
       <Header toggle={toggle} />
       {/* //HeroSection// */}
       <HeroSection />
+      {/* //InfoTab// */}
+      <InfoTab />
     </>
   );
 }
