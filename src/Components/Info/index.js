@@ -25,6 +25,7 @@ const InfoTab = ({
   btnLabel,
   img,
   alt,
+  lightH1,
 }) => {
   return (
     <>
@@ -34,7 +35,7 @@ const InfoTab = ({
             <Col1>
               <TextWrapper>
                 <MainLine>{mainLine}</MainLine>
-                <H1>{h1}</H1>
+                <H1 lightH1={lightH1}>{h1}</H1>
                 <Title>{title}</Title>
                 <BTNContainer>
                   <BTN to="home">{btnLabel}</BTN>

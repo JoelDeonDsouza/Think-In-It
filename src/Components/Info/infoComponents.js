@@ -3,8 +3,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: #f2f2f2;
-
+  background: ${({ lightBg }) => (lightBg ? "#f2f2f2" : "#C4DDFF")};
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -31,7 +30,7 @@ export const InfoR = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `"call1 call2"` : `"call1 call1" "call2 call2" `};
+      imgStart ? `"call1"  "call2"` : `"call1 call1" "call2 call2" `};
   }
 `;
 
@@ -68,7 +67,7 @@ export const H1 = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: #79dae8;
+  color: ${({ lightH1 }) => (lightH1 ? "#79dae8" : "#035397")};
 
   @media screen and (max-width: 768px) {
     font-size: 31px;
@@ -95,7 +94,7 @@ export const ImgContainer = styled.div`
 
 export const Img = styled.img`
   width: 100%;
-  margin: 0 0 10px 0;
+  margin: -50px 0 70px 0;
   padding-right: 0;
 `;
 
