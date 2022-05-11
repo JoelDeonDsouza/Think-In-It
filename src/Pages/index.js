@@ -3,6 +3,7 @@ import SideBar from "../Components/SideBar";
 import Header from "../Components/Header";
 import HeroSection from "../Components/HeroSection";
 import InfoTab from "../Components/Info";
+import { dataHomeOne } from "../Components/Info/data";
 
 function Main() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,7 @@ function Main() {
       {/* //HeroSection// */}
       <HeroSection />
       {/* //InfoTab// */}
-      <InfoTab />
+      <InfoTab {...dataHomeOne} />
     </>
   );
 }

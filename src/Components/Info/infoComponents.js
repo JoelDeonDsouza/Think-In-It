@@ -1,3 +1,4 @@
+import { Button } from "react-scroll";
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
@@ -96,4 +97,18 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+`;
+
+export const BTN = styled.div`
+  border-radius: 15px;
+  background: #f66b0e;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: #f8cb2e;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
 `;

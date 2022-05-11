@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "react-scroll";
 import {
   InfoContainer,
   InfoWrapper,
@@ -10,30 +9,41 @@ import {
   H1,
   Title,
   BTNContainer,
+  BTN,
   Col2,
   ImgContainer,
   Img,
 } from "./infoComponents";
 
-const InfoTab = () => {
+const InfoTab = ({
+  lightBg,
+  id,
+  imgStart,
+  mainLine,
+  h1,
+  title,
+  btnLabel,
+  img,
+  alt,
+}) => {
   return (
     <>
-      <InfoContainer>
+      <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-          <InfoR>
+          <InfoR imgStart={imgStart}>
             <Col1>
               <TextWrapper>
-                <MainLine>UpperLine</MainLine>
-                <H1>Heading</H1>
-                <Title>Title</Title>
+                <MainLine>{mainLine}</MainLine>
+                <H1>{h1}</H1>
+                <Title>{title}</Title>
                 <BTNContainer>
-                  <Button to="home" />
+                  <BTN to="home">{btnLabel}</BTN>
                 </BTNContainer>
               </TextWrapper>
             </Col1>
             <Col2>
               <ImgContainer>
-                <Img />
+                <Img src={img} alt={alt} />
               </ImgContainer>
             </Col2>
           </InfoR>
