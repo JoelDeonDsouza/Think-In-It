@@ -1,5 +1,3 @@
-import { MdNorthWest } from "react-icons/md";
-
 export const dataHomeOne = {
   id: "info",
   lightBg: true,
