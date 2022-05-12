@@ -5,8 +5,8 @@ export const dataHomeOne = {
   lightBg: true,
   lightH1: true,
   lightTitle: false,
-  mainLine: "Unsere Orthimale",
-  h1: "Willkommen bei Think3DDD",
+  mainLine: "Welcome to Think3DDD",
+  h1: "DIGITAL MADE-TO-MEASURE-PRODUCTION healthy - sustainable - affordable",
   title:
     "We sustainably improve the self-healing of humans and animals with our environmentally friendly, individual and gentle 3D healing sleeves. To do this, we use innovative 3D technologies. We offer a significant improvement in external medical limb support using sustainable materials at a more affordable price. We have made it our task to make 3D printing or additive manufacturing with plastics and medical technology (especially orthopaedics) sustainable.",
   btnLabel: "Start Now",
