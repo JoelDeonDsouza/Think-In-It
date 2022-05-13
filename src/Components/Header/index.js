@@ -23,16 +23,16 @@ const Header = ({ toggle }) => {
           </Icon>
           <NavMenu>
             <NavItem>
-              <Links to="home">Home</Links>
+              <Links to="info">Home</Links>
             </NavItem>
             <NavItem>
-              <Links to="about">About</Links>
+              <Links to="printInfo">About</Links>
             </NavItem>
             <NavItem>
-              <Links to="services">3D-States</Links>
+              <Links to="orthoInfo">3D-States</Links>
             </NavItem>
             <NavItem>
-              <Links to="services-1">3D-Printing Services</Links>
+              <Links to="ecoInfo">3D-Printing Services</Links>
             </NavItem>
             <NavItem>
               <Links to="blog">Blog</Links>

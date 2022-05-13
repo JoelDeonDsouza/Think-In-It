@@ -9,6 +9,7 @@ import {
   dataHomeThree,
   dataHomeFour,
 } from "../Components/Info/data";
+import Services from "../Components/Services";
 
 function Main() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,8 @@ function Main() {
       <InfoTab {...dataHomeOne} />
       <InfoTab {...dataHomeTwo} />
       <InfoTab {...dataHomeThree} />
+      {/* //Services// */}
+      <Services />
       <InfoTab {...dataHomeFour} />
     </>
   );

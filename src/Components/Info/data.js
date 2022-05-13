@@ -17,7 +17,7 @@ export const dataHomeOne = {
 };
 
 export const dataHomeTwo = {
-  id: "info",
+  id: "printInfo",
   lightBg: false,
   lightH1: false,
   lightTitle: false,
@@ -36,7 +36,7 @@ export const dataHomeTwo = {
 };
 
 export const dataHomeThree = {
-  id: "info",
+  id: "orthoInfo",
   lightBg: true,
   lightH1: true,
   lightTitle: false,
@@ -55,8 +55,8 @@ export const dataHomeThree = {
 };
 
 export const dataHomeFour = {
-  id: "info",
-  lightBg: false,
+  id: "ecoInfo",
+  lightBg: true,
   lightH1: false,
   lightTitle: false,
   mainLine: "Why should you use our services?",
