@@ -10,6 +10,7 @@ import {
   dataHomeFour,
 } from "../Components/Info/data";
 import Services from "../Components/Services";
+import Footer from "../Components/Footer";
 
 function Main() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +33,7 @@ function Main() {
       {/* //Services// */}
       <Services />
       <InfoTab {...dataHomeFour} />
+      <Footer />
     </>
   );
 }
