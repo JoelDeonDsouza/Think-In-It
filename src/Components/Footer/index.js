@@ -15,6 +15,8 @@ import {
   SocialLink,
 } from "./footerComponents";
 
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <Container>
@@ -35,15 +37,6 @@ const Footer = () => {
               <LinkText to="ecoInfo">Support</LinkText>
               <LinkText to="ecoInfo">Sponsorships</LinkText>
               <LinkText to="ecoInfo">Store</LinkText>
-            </LinkItems>
-          </LinkWrapper>
-          <LinkWrapper>
-            <LinkItems>
-              <LinkTitle>Scocial Media</LinkTitle>
-              <LinkText to="ecoInfo">Facebook</LinkText>
-              <LinkText to="ecoInfo">Instagram</LinkText>
-              <LinkText to="ecoInfo">Linkedin</LinkText>
-              <LinkText to="ecoInfo">Twitter</LinkText>
             </LinkItems>
           </LinkWrapper>
         </LinkContainer>
