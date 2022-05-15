@@ -49,18 +49,64 @@ export const LinkItems = styled.div`
 `;
 
 export const LinkTitle = styled.h1`
-  font-size: 16px;
+  color: #79dae8;
+  font-size: 1.5rem;
   margin-bottom: 16px;
 `;
 
 export const LinkText = styled(Link)`
-  color: #fff;
+  color: #f2f2f2;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 20px;
 
   &:hover {
     color: #000;
     transition: 0.3s ease-out;
   }
+`;
+
+export const Media = styled.section`
+  max-width: 1000px;
+  width: 100%;
+`;
+
+export const MWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 40px auto 0 auto;
+
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
+`;
+
+export const Logo = styled(Link)`
+  color: #f2f2f2;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-weight: bold;
+`;
+
+export const Rights = styled.small`
+  color: #f2f2f2;
+  margin-bottom: 16px;
+`;
+export const SocialIcon = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+`;
+
+export const SocialLink = styled.a`
+  color: #fff;
+  font-size: 24px;
 `;
