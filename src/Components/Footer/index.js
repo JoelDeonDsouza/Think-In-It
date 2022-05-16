@@ -36,7 +36,6 @@ const Footer = () => {
               <LinkText to="ecoInfo">Contact</LinkText>
               <LinkText to="ecoInfo">Support</LinkText>
               <LinkText to="ecoInfo">Sponsorships</LinkText>
-              <LinkText to="ecoInfo">Store</LinkText>
             </LinkItems>
           </LinkWrapper>
         </LinkContainer>
