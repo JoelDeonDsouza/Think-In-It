@@ -1,5 +1,7 @@
 import React from "react";
 
-export const Awards = () => {
+const Awards = () => {
   return <div></div>;
 };
+
+export default Awards;

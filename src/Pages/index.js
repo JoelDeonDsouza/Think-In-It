@@ -4,6 +4,7 @@ import Header from "../Components/Header";
 import HeroSection from "../Components/HeroSection";
 import InfoTab from "../Components/Info";
 import Awards from "../Components/Awards";
+
 import {
   dataHomeOne,
   dataHomeTwo,
