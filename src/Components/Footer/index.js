@@ -15,7 +15,7 @@ import {
   SocialLink,
 } from "./footerComponents";
 
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -47,14 +47,11 @@ const Footer = () => {
               © {new Date().getFullYear()} Think3DDD All rights reserved
             </Rights>
             <SocialIcon>
-              <SocialLink href="/" target="blank" aria-label="Facebook">
-                <FaFacebook />
-              </SocialLink>
-              <SocialLink href="/" target="blank" aria-label="Instagram">
-                <FaInstagram />
-              </SocialLink>
               <SocialLink href="/" target="blank" aria-label="Linkedin">
                 <FaLinkedin />
+              </SocialLink>
+              <SocialLink href="/" target="blank" aria-label="Youtube">
+                <FaYoutube />
               </SocialLink>
               <SocialLink href="/" target="blank" aria-label="Twitter">
                 <FaTwitter />
